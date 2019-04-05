@@ -48,3 +48,7 @@ SetNextOneTimeBootDeviceREDFISH.py -o Pxe -r y
 ###import from share#cifs#./main.sh 'ImportSystemConfigurationNetworkShareREDFISH.py -t BIOS --ipaddress 192.168.0.140 --sharetype CIFS --sharename /export/cifs --filename file.json --username Dell --password password'
 #
 
+
+extra
+#get enclosure raid controller info
+#./main.sh 'GetStorageChassisREDFISH.py -Cy'
